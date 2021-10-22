@@ -8,3 +8,52 @@ Ciascun membro del team avrá come caratteristica:
 
 - Stampare in console tutti gli elementi del team e le loro proprieta.
 */
+
+/* strumenti
+-array/object
+-for/for in
+-console
+*/
+
+
+// array di oggetti
+const team = [
+    {
+        name: "Filippo",
+        role: "student",
+        image: "https://picsum.photos/images"
+    },
+
+    {
+        name: "Angela",
+        role: "director",
+        image: "https://picsum.photos/images"
+    },
+    {
+        name: "Marco",
+        role: "CEO",
+        image: "https://picsum.photos/images"
+    },
+    {
+        name: "Francesca",
+        role: "CFO",
+        image: "https://picsum.photos/images"
+    },
+    {
+        name: "Sara",
+        role: "CMO",
+        image: "https://picsum.photos/images"
+    },
+    {
+        name: "Federico",
+        role: "CTO",
+        image: "https://picsum.photos/images"
+    },
+    {
+        name: "Mario",
+        role: "president",
+        image: "https://picsum.photos/images"
+    }
+
+]
+console.log(team);
