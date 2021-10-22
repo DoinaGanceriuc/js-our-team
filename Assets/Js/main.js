@@ -57,3 +57,18 @@ const team = [
 
 ]
 console.log(team);
+
+// ciclo for per iterare gli elementi (oggetti) dell'array
+for (let i = 0; i < team.length; i++) {
+    const singleElement = team[i];
+    console.log(singleElement);
+
+
+    // ciclo for in per iterare gli elementi nell'oggetto
+    for (key in singleElement) {
+        /* console.log(key); */
+        console.log(key +":", singleElement[key]);
+
+    }
+
+}
